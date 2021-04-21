@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form>
+      <table border="1">
+        <td colspan="2">Compras de Aquario<input type="button" value="+" /></td>
+        <caption>
+          <td colspan="2">Compras</td>
+        </caption>
+        <tr>
+          <th>Produtos</th>
+          <th>Lista de Comprar</th>
+        </tr>
+        <tr>
+          <td>
+            <select>
+              <option><b>Aquários</b></option>
+              <option>Aquários43L</option>
+              <option>Aquários84L</option>
+            </select>
+            <input type="button" value="+" />
+          </td>
+          <td rowspan="3">
+            <textarea name="sugerir" rows="10" cols="20"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <th>Complementos</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="complementos" value="1" />Móvel +
+            Luminária<br />
+            <input type="radio" name="complementos" value="2" />Luminária<br />
+            <input type="radio" name="complementos" value="3" />Só vidro<br />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="entregacpre" />Entregar como Presente
+          </td>
+          <td>Valor Total:<input type="text" name="valor_total" size="7" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
